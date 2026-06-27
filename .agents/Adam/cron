@@ -1,0 +1,34 @@
+# Cron
+
+Scheduled automation tasks for this agent.
+
+## Agent: Adam
+## Source: Daily briefing at 08:00 SAST. Weekly executive report every Monday. Escalation threshold: risk level HIGH. Receives reports from every agent.
+
+---
+
+# Task 1: Daily briefing at 08:00 SAST
+schedule: "0 9 * * *"
+task: "Daily briefing at 08:00 SAST"
+agent: "Adam"
+
+---
+
+# Task 2: Weekly executive report every Monday
+schedule: "0 9 * * 1"
+task: "Weekly executive report every Monday"
+agent: "Adam"
+
+---
+
+# Task 3: Escalation threshold: risk level HIGH
+schedule: "# TODO: define cron expression"
+task: "Escalation threshold: risk level HIGH"
+agent: "Adam"
+
+---
+
+# Task 4: Receives reports from every agent
+schedule: "# TODO: define cron expression"
+task: "Receives reports from every agent"
+agent: "Adam"
