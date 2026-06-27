@@ -1,0 +1,31 @@
+# Hooks
+
+Event hooks and triggers for this agent. These define how the agent reacts to system events.
+
+## Agent: Adam
+## Role: Chief Executive Officer and Command Coordinator
+
+---
+
+## on_task_assigned
+
+**Trigger:** When a new task is assigned
+**Current Task:** Daily command briefing — priorities, risks, urgent items, opportunities
+**Status:** in_progress
+**Progress:** 0%
+
+---
+
+## on_status_change
+
+**Trigger:** When agent status changes
+**Current Status:** online
+**Risk Level:** low
+
+---
+
+## on_check_in
+
+**Trigger:** Scheduled check-in
+**Schedule:** Daily briefing at 08:00 SAST. Weekly executive report every Monday. Escalation threshold: risk level HIGH. Receives reports from every agent.
+**Primary Outcome:** Daily command briefing — priorities, risks, urgent items, opportunities
