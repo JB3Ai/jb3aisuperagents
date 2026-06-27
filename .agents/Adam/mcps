@@ -1,0 +1,14 @@
+# MCPs
+
+Model Context Protocol server connections for this agent.
+
+## Connected MCPs
+
+(none configured)
+
+## Format
+
+Each entry:
+- **name:** Display name
+- **url:** MCP server endpoint
+- **description:** What this MCP provides
