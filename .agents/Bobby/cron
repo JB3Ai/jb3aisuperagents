@@ -1,0 +1,41 @@
+# Cron
+
+Scheduled automation tasks for this agent.
+
+## Agent: Bobby
+## Source: System health checks every 5 min. Daily GitHub report at 12:00 SAST. Backup verification daily. Alert on any downtime or DNS anomaly. Escalation to Codie for code-level issues.
+
+---
+
+# Task 1: System health checks every 5 min
+schedule: "# TODO: define cron expression"
+task: "System health checks every 5 min"
+agent: "Bobby"
+
+---
+
+# Task 2: Daily GitHub report at 12:00 SAST
+schedule: "0 9 * * *"
+task: "Daily GitHub report at 12:00 SAST"
+agent: "Bobby"
+
+---
+
+# Task 3: Backup verification daily
+schedule: "0 9 * * *"
+task: "Backup verification daily"
+agent: "Bobby"
+
+---
+
+# Task 4: Alert on any downtime or DNS anomaly
+schedule: "# TODO: define cron expression"
+task: "Alert on any downtime or DNS anomaly"
+agent: "Bobby"
+
+---
+
+# Task 5: Escalation to Codie for code-level issues
+schedule: "# TODO: define cron expression"
+task: "Escalation to Codie for code-level issues"
+agent: "Bobby"
