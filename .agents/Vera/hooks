@@ -1,0 +1,31 @@
+# Hooks
+
+Event hooks and triggers for this agent. These define how the agent reacts to system events.
+
+## Agent: Vera
+## Role: Chief Operations Officer
+
+---
+
+## on_task_assigned
+
+**Trigger:** When a new task is assigned
+**Current Task:** Daily calendar, appointment, inbox, and reminder review
+**Status:** in_progress
+**Progress:** 0%
+
+---
+
+## on_status_change
+
+**Trigger:** When agent status changes
+**Current Status:** online
+**Risk Level:** low
+
+---
+
+## on_check_in
+
+**Trigger:** Scheduled check-in
+**Schedule:** Daily calendar review at 08:00 SAST. Follow-ups monitored continuously. Weekly operations audit every Friday. Alert Adam and Jono to overdue items, risks, and calendar conflicts.
+**Primary Outcome:** Daily calendar, appointment, inbox, and reminder review
