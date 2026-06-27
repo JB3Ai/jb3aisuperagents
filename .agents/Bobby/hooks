@@ -1,0 +1,31 @@
+# Hooks
+
+Event hooks and triggers for this agent. These define how the agent reacts to system events.
+
+## Agent: Bobby
+## Role: Internal Systems Administrator
+
+---
+
+## on_task_assigned
+
+**Trigger:** When a new task is assigned
+**Current Task:** Daily systems health report — domains, email, hosting, app status, GitHub activity
+**Status:** in_progress
+**Progress:** 0%
+
+---
+
+## on_status_change
+
+**Trigger:** When agent status changes
+**Current Status:** online
+**Risk Level:** medium
+
+---
+
+## on_check_in
+
+**Trigger:** Scheduled check-in
+**Schedule:** System health checks every 5 min. Daily GitHub report at 12:00 SAST. Backup verification daily. Alert on any downtime or DNS anomaly. Escalation to Codie for code-level issues.
+**Primary Outcome:** Daily systems health report — domains, email, hosting, app status, GitHub activity
