@@ -1,0 +1,48 @@
+# Cron
+
+Scheduled automation tasks for this agent.
+
+## Agent: Vera
+## Source: Daily calendar review at 08:00 SAST. Follow-ups monitored continuously. Weekly operations audit every Friday. Alert Adam and Jono to overdue items, risks, and calendar conflicts.
+
+---
+
+# Task 1: Daily calendar review at 08:00 SAST
+schedule: "0 9 * * *"
+task: "Daily calendar review at 08:00 SAST"
+agent: "Vera"
+
+---
+
+# Task 2: Follow-ups monitored continuously
+schedule: "# TODO: define cron expression"
+task: "Follow-ups monitored continuously"
+agent: "Vera"
+
+---
+
+# Task 3: Weekly operations audit every Friday
+schedule: "0 9 * * 5"
+task: "Weekly operations audit every Friday"
+agent: "Vera"
+
+---
+
+# Task 4: Alert Adam and Jono to overdue items
+schedule: "# TODO: define cron expression"
+task: "Alert Adam and Jono to overdue items"
+agent: "Vera"
+
+---
+
+# Task 5: risks
+schedule: "# TODO: define cron expression"
+task: "risks"
+agent: "Vera"
+
+---
+
+# Task 6: and calendar conflicts
+schedule: "# TODO: define cron expression"
+task: "and calendar conflicts"
+agent: "Vera"
